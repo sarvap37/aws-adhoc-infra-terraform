@@ -1,0 +1,24 @@
+# Ignore Terraform configuration files that are automatically generated
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore sensitive Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore crash logs
+crash.log
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore other local or temporary files
+*.log
+*.tmp
+
+# Ignore Terraform plan files
+*.tfplan
